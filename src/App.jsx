@@ -191,8 +191,8 @@ export default function App() {
           h1 { font-size: 52px !important; line-height: 1 !important; letter-spacing: -1px !important; }
           h2 { font-size: 30px !important; }
           p { font-size: 14px !important; }
-          .hero-buttons { flex-direction: column; }
-          .hero-buttons .btn-primary, .hero-buttons .btn-outline { width: 100%; text-align: center; display: block; }
+          .hero-buttons { flex-direction: row; flex-wrap: wrap; }
+          .hero-buttons .btn-primary, .hero-buttons .btn-outline { flex: 1; text-align: center; } 
           .contact-row { flex-direction: column; align-items: flex-start; gap: 6px; }
           .contact-arrow { margin-left: 0 !important; }
           .nav-desktop { display: none !important; }
