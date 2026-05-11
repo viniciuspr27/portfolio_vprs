@@ -131,6 +131,7 @@ export default function App() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body, #root { width: 100%; max-width: 100%; overflow-x: hidden; }
         html { scroll-behavior: smooth; }
         ::selection { background: #c9a96e33; }
         ::-webkit-scrollbar { width: 3px; }
@@ -347,7 +348,7 @@ export default function App() {
               <div style={{ width: 40, height: 1, background: C.accent }} />
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: C.accent, letterSpacing: 3, textTransform: "uppercase" }}>Sobre mim</span>
             </div>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 48, fontWeight: 300, lineHeight: 1.15, marginBottom: 32 }}>
+            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 48, fontWeight: 400, lineHeight: 1.15, marginBottom: 32 }}>
               Onde experiência<br /><em style={{ color: C.accent }}>encontra</em> tecnologia
             </h2>
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: C.muted, lineHeight: 1.9, marginBottom: 20, fontWeight: 300 }}>
@@ -496,7 +497,7 @@ export default function App() {
               <div style={{ width: 40, height: 1, background: C.accent }} />
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: C.accent, letterSpacing: 3, textTransform: "uppercase" }}>Contato</span>
             </div>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: 300, lineHeight: 1.1, marginBottom: 24, maxWidth: 700 }}>
+            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: 400, lineHeight: 1.1, marginBottom: 24, maxWidth: 700 }}>
               Vamos construir<br />algo <em style={{ color: C.accent }}>juntos</em>?
             </h2>
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: C.muted, lineHeight: 1.8, maxWidth: 460, marginBottom: 64, fontWeight: 300 }}>
