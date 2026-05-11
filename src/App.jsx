@@ -466,7 +466,7 @@ export default function App() {
             {[...experiences, {
               role: "Estudante de ADS",
               company: "FIAP — São Paulo",
-              period: "2024 — Atual",
+              period: "2026 — Atual",
               desc: null,
               tags: ["React", "Python", "Java", "Node.js", "SQL"],
             }].map((exp, i, arr) => (
@@ -533,7 +533,7 @@ export default function App() {
           Vinicius Pacheco Ruiz<span style={{ color: C.accent }}>.</span>
         </span>
         <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, color: C.muted, letterSpacing: 2 }}>
-          © 2025 · São Paulo, Brasil
+          © 2026 · São Paulo, Brasil
         </span>
       </footer>
     </div>
