@@ -298,7 +298,7 @@ export default function App() {
           letterSpacing: -3,
           animation: "fadeUp 1s ease 0.35s both",
         }}>
-          Vinicius<br />
+          <span style={{ color: C.text }}>Vinicius</span><br />
           <em style={{ color: C.accent, fontStyle: "italic", fontWeight: 300 }}>Pacheco</em><br />
           <span style={{ color: C.muted }}>Ruiz</span>
         </h1>
